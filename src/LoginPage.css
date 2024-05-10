@@ -1,0 +1,104 @@
+/* LoginPage.css */
+body {
+   font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #ffffff; /*Light text color for better readability on dark background */
+   background: linear-gradient(-45deg, #c3c8c9, #070245, #6d0984, #9d0f88);
+  background-size: 400% 400%;
+  animation: gradient 7s ease infinite;
+  overflow: hidden;   
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Add your existing styles here */
+.LoginPage {
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  border: 3px solid #555;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  margin-top: 100px;
+ background-color: rgba(27, 25, 25, 0.8); /* Slightly transparent background color for the container */
+}
+
+.logo-containerlogin {
+  margin-bottom: 20px;
+}
+
+.logologin {
+  width: 80px; /* Adjust the width of your logo */
+  height: 80px; /* Adjust the height of your logo */
+  object-fit: contain;
+}
+
+.invitation-container {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  background-color: #3a79f6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #056a7b;
+}
+
+.create-room-container {
+  font-size: 14px;
+  color: #2d57f1;
+}
+
+.create-room-container a {
+  color: #ffcc00; /* Yellow color for the link */
+  text-decoration: underline; /* Underline the link */
+  font-weight: bold; /* Make the link bold */ 
+}
+
+.divider {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.divider::before, .divider::after {
+  flex: 1;
+  content: '';
+  padding: 2px;
+  background-color: rgb(99, 95, 100);
+  margin: 0px;
+}
+
+
